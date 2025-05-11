@@ -1,0 +1,15 @@
+{
+  "name": "integrate-mcp-with-copilot",
+  "version": "1.0.0",
+  "description": "A project that integrates MCP with PostgreSQL for data analysis tasks.",
+  "main": "src/mcp-server.js",
+  "scripts": {
+    "start": "node src/mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "pg": "^8.7.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
