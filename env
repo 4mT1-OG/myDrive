@@ -58,8 +58,10 @@ TEMP_VIDEO_THUMBNAIL_LIMIT=5000000000
 # Ports (optional): The ports to run the server on.
 # HTTP_PORT: Default port is 3000
 # HTTPS_PORT: Default port is 8080
-HTTP_PORT=
-HTTPS_PORT=
+HTTP_PORT=3000
+
+HTTPS_PORT=8080
+
 
 # URL (optional): The URL to run the server on.
 # Most likely not needed, this changes the ip address/url express listens on.
